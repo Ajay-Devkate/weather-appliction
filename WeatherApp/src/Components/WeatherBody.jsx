@@ -34,14 +34,14 @@ const WeatherBody = () => {
 
   return (
     <div
-      className={` md:w-1/4 mt-50 mx-4 bg-[#818C78] shadow-md rounded-lg p-4 ${
-        checkData ? "h-1/3" : "h-1/8"
+      className={` md:w-fit mt-50 mx-4 bg-[#818C78] shadow-md rounded-lg p-4 ${
+        checkData ? "h-fit" : "h-1/8"
       } flex flex-col align-center justify-center`}
     >
-      <div className="">
+      <div>
         <input
           onChange={(e) => setCity(e.target.value)}
-          className="border-2 border-gray-300 bg-white h-9 px-5  md:pr-16 rounded-lg text-sm focus:outline-none mr-4"
+          className="border-2 border-gray-300 bg-white w-2/3 h-9 px-5  md:pr-16 mb-2 rounded-lg text-sm focus:outline-none mr-4"
           type="text"
           placeholder="Enetr City Name"
         />
