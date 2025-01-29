@@ -62,7 +62,7 @@ const WeatherBody = () => {
             </h1>
             <h1>
               <span className="font-bold">Temp : </span>
-              {weatherData.main.temp}°C
+              {weatherData.main.temp}<sup>°C</sup>
             </h1>
             <h1>
               <span className="font-bold">Humidity : </span>
